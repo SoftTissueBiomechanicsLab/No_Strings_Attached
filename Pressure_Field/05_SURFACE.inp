@@ -1,0 +1,14 @@
+*Surface Interaction, name=Rigid_Interaction_Property 
+*Friction 
+0.001, 
+*Surface Behavior, pressure-overclosure=HARD 
+*Surface Interaction, name=Interaction_Property 
+*Friction 
+0.1, 
+*Surface Behavior, pressure-overclosure=linear 
+100.0 
+*Surface Interaction, name=Leaflet_Interaction_Property 
+*Friction 
+0.1, 
+*Surface Behavior, pressure-overclosure=linear 
+0.5 

@@ -1,0 +1,8 @@
+*Assembly, name=Assembly 
+*Instance, name=Leaflet_Instance, part=Leaflet 
+*End Instance 
+*Surface, type=ELEMENT, name=Leaflet_Surfaces, MAXRATIO=0.6 
+Leaflet_Instance.Anterior_Leaflet_Elements, SPOS 
+Leaflet_Instance.Posterior_Leaflet_Elements, SPOS 
+Leaflet_Instance.Septal_Leaflet_Elements, SPOS 
+*End Assembly 

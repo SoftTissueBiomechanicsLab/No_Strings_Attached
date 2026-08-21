@@ -1,0 +1,21 @@
+*Material, name=VUANISO_ISO_1
+*Density
+1e-09,
+*anisotropic hyperelastic, user,formulation=invariant, local directions=1, type=compressible, properties=4
+0.001000, 20.066890, 0.000124, 4.568202
+*TRANSVERSE SHEAR
+5.000000e-03,5.000000e-03,0.0
+*Material, name=VUANISO_ISO_2
+*Density
+1e-09,
+*anisotropic hyperelastic, user,formulation=invariant, local directions=1, type=compressible, properties=4
+0.001000, 20.066890, 0.000188, 14.859590
+*TRANSVERSE SHEAR
+5.000000e-03,5.000000e-03,0.0
+*Material, name=VUANISO_ISO_3
+*Density
+1e-09,
+*anisotropic hyperelastic, user,formulation=invariant, local directions=1, type=compressible, properties=4
+0.001000, 20.066890, 0.000191, 17.751490
+*TRANSVERSE SHEAR
+5.000000e-03,5.000000e-03,0.0

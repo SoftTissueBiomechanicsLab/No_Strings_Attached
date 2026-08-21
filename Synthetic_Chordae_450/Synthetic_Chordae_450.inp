@@ -1,0 +1,21 @@
+**  BEGIN USER HEADER
+**  ABAQUS INPUT FILE: ROCS13_Force_Run_41_C_6_Ha_1_O_1.inp
+**  FILE CREATED ON: 25-May-2026 12:50:43
+**  FILE CREATED BY: ch49693
+**  INP FILE CONTAINS *INCLUDE CALLS
+**  END OF USER HEADER
+**  
+**  BEGIN MODEL DATA
+*INCLUDE, input=00_VALVE.inp 
+*INCLUDE, input=03_ASSEMBLY.inp 
+*Distribution Table, name=Ori-1-DiscOrient_Table
+coord3D, coord3D
+*Distribution Table, name=Ori-3-DiscOrient_Table
+coord3D, coord3D
+*Distribution Table, name=Ori-2-DiscOrient_Table
+coord3D, coord3D
+*INCLUDE, input=04_AMP.inp 
+*INCLUDE, input=02_MATERIALS.inp 
+*INCLUDE, input=05_SURFACE.inp 
+** LOADING STEP DEFINITIONS 
+*INCLUDE, input=06_STEP_PRESSURE.inp 

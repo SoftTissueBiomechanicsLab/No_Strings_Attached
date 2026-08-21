@@ -1,0 +1,6 @@
+*Shell Section, elset=Anterior_Leaflet_Elements, material=VUANISO_ISO_1, orientation=Ori-2 
+.65,5 
+*Shell Section, elset=Posterior_Leaflet_Elements, material=VUANISO_ISO_2, orientation=Ori-1 
+.65,5 
+*Shell Section, elset=Septal_Leaflet_Elements, material=VUANISO_ISO_3, orientation=Ori-3 
+.65,5  

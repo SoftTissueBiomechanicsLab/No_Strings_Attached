@@ -1,0 +1,5 @@
+*Surface Interaction, name=Interaction_Property 
+1., 
+*Friction 
+0.001, 
+*Surface Behavior, pressure-overclosure=HARD 

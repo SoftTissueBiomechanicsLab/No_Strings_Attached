@@ -1,0 +1,1892 @@
+*Step, name="Annulus Approximation", nlgeom=YES 
+*Dynamic, Explicit 
+, 1. 
+*Bulk Viscosity 
+2.0, 1.2 
+*VARIABLE MASS SCALING, TYPE=UNIFORM, FREQUENCY=10000, DT=1e-6
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1,1,1,-0.564805 
+Leaflet_Instance.1,2,2,0.855493 
+Leaflet_Instance.1,3,3,0.034586 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.2,1,1,-0.641906 
+Leaflet_Instance.2,2,2,-0.348880 
+Leaflet_Instance.2,3,3,0.013224 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.3,1,1,-0.599537 
+Leaflet_Instance.3,2,2,0.850605 
+Leaflet_Instance.3,3,3,0.053830 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.4,1,1,-0.668044 
+Leaflet_Instance.4,2,2,0.837079 
+Leaflet_Instance.4,3,3,0.094093 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.5,1,1,-0.668044 
+Leaflet_Instance.5,2,2,0.837079 
+Leaflet_Instance.5,3,3,0.094093 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6,1,1,-0.734365 
+Leaflet_Instance.6,2,2,0.816344 
+Leaflet_Instance.6,3,3,0.137375 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.7,1,1,-0.734365 
+Leaflet_Instance.7,2,2,0.816344 
+Leaflet_Instance.7,3,3,0.137375 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8,1,1,-0.798063 
+Leaflet_Instance.8,2,2,0.788904 
+Leaflet_Instance.8,3,3,0.182702 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9,1,1,-0.798063 
+Leaflet_Instance.9,2,2,0.788904 
+Leaflet_Instance.9,3,3,0.182702 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10,1,1,-0.858560 
+Leaflet_Instance.10,2,2,0.755271 
+Leaflet_Instance.10,3,3,0.229034 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.11,1,1,-0.858560 
+Leaflet_Instance.11,2,2,0.755271 
+Leaflet_Instance.11,3,3,0.229034 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.12,1,1,-0.915057 
+Leaflet_Instance.12,2,2,0.716077 
+Leaflet_Instance.12,3,3,0.275158 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.13,1,1,-0.915057 
+Leaflet_Instance.13,2,2,0.716077 
+Leaflet_Instance.13,3,3,0.275158 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.14,1,1,-0.966976 
+Leaflet_Instance.14,2,2,0.671824 
+Leaflet_Instance.14,3,3,0.320034 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.15,1,1,-0.966976 
+Leaflet_Instance.15,2,2,0.671824 
+Leaflet_Instance.15,3,3,0.320034 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.16,1,1,-1.013720 
+Leaflet_Instance.16,2,2,0.623026 
+Leaflet_Instance.16,3,3,0.362610 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.17,1,1,-1.013720 
+Leaflet_Instance.17,2,2,0.623026 
+Leaflet_Instance.17,3,3,0.362610 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.18,1,1,-1.054600 
+Leaflet_Instance.18,2,2,0.570275 
+Leaflet_Instance.18,3,3,0.401742 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.19,1,1,-1.054600 
+Leaflet_Instance.19,2,2,0.570275 
+Leaflet_Instance.19,3,3,0.401742 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.20,1,1,-1.088970 
+Leaflet_Instance.20,2,2,0.514113 
+Leaflet_Instance.20,3,3,0.436347 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.21,1,1,-1.088970 
+Leaflet_Instance.21,2,2,0.514113 
+Leaflet_Instance.21,3,3,0.436347 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.22,1,1,-1.116200 
+Leaflet_Instance.22,2,2,0.455083 
+Leaflet_Instance.22,3,3,0.465333 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.23,1,1,-1.116200 
+Leaflet_Instance.23,2,2,0.455083 
+Leaflet_Instance.23,3,3,0.465333 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.24,1,1,-1.135640 
+Leaflet_Instance.24,2,2,0.393731 
+Leaflet_Instance.24,3,3,0.487612 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.25,1,1,-1.135640 
+Leaflet_Instance.25,2,2,0.393731 
+Leaflet_Instance.25,3,3,0.487612 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.26,1,1,-1.146660 
+Leaflet_Instance.26,2,2,0.330614 
+Leaflet_Instance.26,3,3,0.502086 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.27,1,1,-1.146660 
+Leaflet_Instance.27,2,2,0.330614 
+Leaflet_Instance.27,3,3,0.502086 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.28,1,1,-1.148610 
+Leaflet_Instance.28,2,2,0.266264 
+Leaflet_Instance.28,3,3,0.507667 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.29,1,1,-1.148610 
+Leaflet_Instance.29,2,2,0.266264 
+Leaflet_Instance.29,3,3,0.507667 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.30,1,1,-1.140930 
+Leaflet_Instance.30,2,2,0.201283 
+Leaflet_Instance.30,3,3,0.503287 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.31,1,1,-1.140930 
+Leaflet_Instance.31,2,2,0.201283 
+Leaflet_Instance.31,3,3,0.503287 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.32,1,1,-1.123570 
+Leaflet_Instance.32,2,2,0.136322 
+Leaflet_Instance.32,3,3,0.488565 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.33,1,1,-1.123570 
+Leaflet_Instance.33,2,2,0.136322 
+Leaflet_Instance.33,3,3,0.488565 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.34,1,1,-1.097110 
+Leaflet_Instance.34,2,2,0.071995 
+Leaflet_Instance.34,3,3,0.464044 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.35,1,1,-1.097110 
+Leaflet_Instance.35,2,2,0.071995 
+Leaflet_Instance.35,3,3,0.464044 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.36,1,1,-1.062230 
+Leaflet_Instance.36,2,2,0.008897 
+Leaflet_Instance.36,3,3,0.430543 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.37,1,1,-1.062230 
+Leaflet_Instance.37,2,2,0.008897 
+Leaflet_Instance.37,3,3,0.430543 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.38,1,1,-1.019660 
+Leaflet_Instance.38,2,2,-0.052383 
+Leaflet_Instance.38,3,3,0.388879 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.39,1,1,-1.019660 
+Leaflet_Instance.39,2,2,-0.052383 
+Leaflet_Instance.39,3,3,0.388879 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.40,1,1,-0.970086 
+Leaflet_Instance.40,2,2,-0.111256 
+Leaflet_Instance.40,3,3,0.339869 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.41,1,1,-0.914219 
+Leaflet_Instance.41,2,2,-0.167133 
+Leaflet_Instance.41,3,3,0.284328 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.42,1,1,-0.914219 
+Leaflet_Instance.42,2,2,-0.167133 
+Leaflet_Instance.42,3,3,0.284328 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.43,1,1,-0.852763 
+Leaflet_Instance.43,2,2,-0.219424 
+Leaflet_Instance.43,3,3,0.223077 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.44,1,1,-0.852763 
+Leaflet_Instance.44,2,2,-0.219424 
+Leaflet_Instance.44,3,3,0.223077 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.45,1,1,-0.786425 
+Leaflet_Instance.45,2,2,-0.267536 
+Leaflet_Instance.45,3,3,0.156934 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.46,1,1,-0.786425 
+Leaflet_Instance.46,2,2,-0.267536 
+Leaflet_Instance.46,3,3,0.156934 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.47,1,1,-0.715904 
+Leaflet_Instance.47,2,2,-0.310885 
+Leaflet_Instance.47,3,3,0.086709 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.48,1,1,-0.715904 
+Leaflet_Instance.48,2,2,-0.310885 
+Leaflet_Instance.48,3,3,0.086709 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.49,1,1,-0.641906 
+Leaflet_Instance.49,2,2,-0.348880 
+Leaflet_Instance.49,3,3,0.013224 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1521,1,1,0.002038 
+Leaflet_Instance.1521,2,2,-0.001880 
+Leaflet_Instance.1521,3,3,0.028201 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1522,1,1,-0.574208 
+Leaflet_Instance.1522,2,2,-0.347512 
+Leaflet_Instance.1522,3,3,-0.068843 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1523,1,1,-0.574208 
+Leaflet_Instance.1523,2,2,-0.347512 
+Leaflet_Instance.1523,3,3,-0.068843 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1524,1,1,-0.521010 
+Leaflet_Instance.1524,2,2,-0.308411 
+Leaflet_Instance.1524,3,3,-0.157946 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1525,1,1,-0.521010 
+Leaflet_Instance.1525,2,2,-0.308411 
+Leaflet_Instance.1525,3,3,-0.157946 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1526,1,1,-0.521010 
+Leaflet_Instance.1526,2,2,-0.308411 
+Leaflet_Instance.1526,3,3,-0.157946 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1527,1,1,-0.480611 
+Leaflet_Instance.1527,2,2,-0.267050 
+Leaflet_Instance.1527,3,3,-0.246563 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1528,1,1,-0.480611 
+Leaflet_Instance.1528,2,2,-0.267050 
+Leaflet_Instance.1528,3,3,-0.246563 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1529,1,1,-0.452044 
+Leaflet_Instance.1529,2,2,-0.223690 
+Leaflet_Instance.1529,3,3,-0.334207 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1530,1,1,-0.452044 
+Leaflet_Instance.1530,2,2,-0.223690 
+Leaflet_Instance.1530,3,3,-0.334207 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1531,1,1,-0.452044 
+Leaflet_Instance.1531,2,2,-0.223690 
+Leaflet_Instance.1531,3,3,-0.334207 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1532,1,1,-0.434345 
+Leaflet_Instance.1532,2,2,-0.178601 
+Leaflet_Instance.1532,3,3,-0.420379 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1533,1,1,-0.434345 
+Leaflet_Instance.1533,2,2,-0.178601 
+Leaflet_Instance.1533,3,3,-0.420379 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1534,1,1,-0.426549 
+Leaflet_Instance.1534,2,2,-0.132053 
+Leaflet_Instance.1534,3,3,-0.504574 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1535,1,1,-0.426549 
+Leaflet_Instance.1535,2,2,-0.132053 
+Leaflet_Instance.1535,3,3,-0.504574 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1536,1,1,-0.426549 
+Leaflet_Instance.1536,2,2,-0.132053 
+Leaflet_Instance.1536,3,3,-0.504574 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1537,1,1,-0.427691 
+Leaflet_Instance.1537,2,2,-0.084301 
+Leaflet_Instance.1537,3,3,-0.586318 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1538,1,1,-0.427691 
+Leaflet_Instance.1538,2,2,-0.084301 
+Leaflet_Instance.1538,3,3,-0.586318 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1539,1,1,-0.427691 
+Leaflet_Instance.1539,2,2,-0.084301 
+Leaflet_Instance.1539,3,3,-0.586318 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1540,1,1,-0.436804 
+Leaflet_Instance.1540,2,2,-0.035612 
+Leaflet_Instance.1540,3,3,-0.665115 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1541,1,1,-0.436804 
+Leaflet_Instance.1541,2,2,-0.035612 
+Leaflet_Instance.1541,3,3,-0.665115 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1542,1,1,-0.436804 
+Leaflet_Instance.1542,2,2,-0.035612 
+Leaflet_Instance.1542,3,3,-0.665115 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1543,1,1,-0.452923 
+Leaflet_Instance.1543,2,2,0.013741 
+Leaflet_Instance.1543,3,3,-0.740458 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1544,1,1,-0.452923 
+Leaflet_Instance.1544,2,2,0.013741 
+Leaflet_Instance.1544,3,3,-0.740458 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1545,1,1,-0.452923 
+Leaflet_Instance.1545,2,2,0.013741 
+Leaflet_Instance.1545,3,3,-0.740458 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1546,1,1,-0.475085 
+Leaflet_Instance.1546,2,2,0.063501 
+Leaflet_Instance.1546,3,3,-0.811865 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1547,1,1,-0.475085 
+Leaflet_Instance.1547,2,2,0.063501 
+Leaflet_Instance.1547,3,3,-0.811865 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1548,1,1,-0.475085 
+Leaflet_Instance.1548,2,2,0.063501 
+Leaflet_Instance.1548,3,3,-0.811865 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1549,1,1,-0.502324 
+Leaflet_Instance.1549,2,2,0.113399 
+Leaflet_Instance.1549,3,3,-0.878840 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1550,1,1,-0.502324 
+Leaflet_Instance.1550,2,2,0.113399 
+Leaflet_Instance.1550,3,3,-0.878840 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1551,1,1,-0.502324 
+Leaflet_Instance.1551,2,2,0.113399 
+Leaflet_Instance.1551,3,3,-0.878840 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1552,1,1,-0.533673 
+Leaflet_Instance.1552,2,2,0.163169 
+Leaflet_Instance.1552,3,3,-0.940885 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1553,1,1,-0.533673 
+Leaflet_Instance.1553,2,2,0.163169 
+Leaflet_Instance.1553,3,3,-0.940885 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1554,1,1,-0.533673 
+Leaflet_Instance.1554,2,2,0.163169 
+Leaflet_Instance.1554,3,3,-0.940885 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1555,1,1,-0.568170 
+Leaflet_Instance.1555,2,2,0.212550 
+Leaflet_Instance.1555,3,3,-0.997513 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1556,1,1,-0.568170 
+Leaflet_Instance.1556,2,2,0.212550 
+Leaflet_Instance.1556,3,3,-0.997513 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1557,1,1,-0.568170 
+Leaflet_Instance.1557,2,2,0.212550 
+Leaflet_Instance.1557,3,3,-0.997513 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1558,1,1,-0.604846 
+Leaflet_Instance.1558,2,2,0.261270 
+Leaflet_Instance.1558,3,3,-1.048220 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1559,1,1,-0.604846 
+Leaflet_Instance.1559,2,2,0.261270 
+Leaflet_Instance.1559,3,3,-1.048220 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1560,1,1,-0.604846 
+Leaflet_Instance.1560,2,2,0.261270 
+Leaflet_Instance.1560,3,3,-1.048220 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1561,1,1,-0.642736 
+Leaflet_Instance.1561,2,2,0.309066 
+Leaflet_Instance.1561,3,3,-1.092530 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1562,1,1,-0.642736 
+Leaflet_Instance.1562,2,2,0.309066 
+Leaflet_Instance.1562,3,3,-1.092530 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1563,1,1,-0.642736 
+Leaflet_Instance.1563,2,2,0.309066 
+Leaflet_Instance.1563,3,3,-1.092530 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1564,1,1,-0.680881 
+Leaflet_Instance.1564,2,2,0.355678 
+Leaflet_Instance.1564,3,3,-1.129930 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1565,1,1,-0.680881 
+Leaflet_Instance.1565,2,2,0.355678 
+Leaflet_Instance.1565,3,3,-1.129930 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1566,1,1,-0.680881 
+Leaflet_Instance.1566,2,2,0.355678 
+Leaflet_Instance.1566,3,3,-1.129930 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1567,1,1,-0.718309 
+Leaflet_Instance.1567,2,2,0.400835 
+Leaflet_Instance.1567,3,3,-1.159930 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1568,1,1,-0.718309 
+Leaflet_Instance.1568,2,2,0.400835 
+Leaflet_Instance.1568,3,3,-1.159930 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1569,1,1,-0.718309 
+Leaflet_Instance.1569,2,2,0.400835 
+Leaflet_Instance.1569,3,3,-1.159930 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1570,1,1,-0.754055 
+Leaflet_Instance.1570,2,2,0.444271 
+Leaflet_Instance.1570,3,3,-1.182050 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1571,1,1,-0.754055 
+Leaflet_Instance.1571,2,2,0.444271 
+Leaflet_Instance.1571,3,3,-1.182050 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1572,1,1,-0.754055 
+Leaflet_Instance.1572,2,2,0.444271 
+Leaflet_Instance.1572,3,3,-1.182050 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1573,1,1,-0.787159 
+Leaflet_Instance.1573,2,2,0.485726 
+Leaflet_Instance.1573,3,3,-1.195790 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1574,1,1,-0.787159 
+Leaflet_Instance.1574,2,2,0.485726 
+Leaflet_Instance.1574,3,3,-1.195790 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1575,1,1,-0.787159 
+Leaflet_Instance.1575,2,2,0.485726 
+Leaflet_Instance.1575,3,3,-1.195790 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1576,1,1,-0.816652 
+Leaflet_Instance.1576,2,2,0.524931 
+Leaflet_Instance.1576,3,3,-1.200650 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1577,1,1,-0.816652 
+Leaflet_Instance.1577,2,2,0.524931 
+Leaflet_Instance.1577,3,3,-1.200650 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1578,1,1,-0.816652 
+Leaflet_Instance.1578,2,2,0.524931 
+Leaflet_Instance.1578,3,3,-1.200650 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1579,1,1,-0.841570 
+Leaflet_Instance.1579,2,2,0.561621 
+Leaflet_Instance.1579,3,3,-1.196140 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1580,1,1,-0.841570 
+Leaflet_Instance.1580,2,2,0.561621 
+Leaflet_Instance.1580,3,3,-1.196140 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1581,1,1,-0.841570 
+Leaflet_Instance.1581,2,2,0.561621 
+Leaflet_Instance.1581,3,3,-1.196140 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1582,1,1,-0.860467 
+Leaflet_Instance.1582,2,2,0.594602 
+Leaflet_Instance.1582,3,3,-1.182660 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1583,1,1,-0.860467 
+Leaflet_Instance.1583,2,2,0.594602 
+Leaflet_Instance.1583,3,3,-1.182660 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1584,1,1,-0.860467 
+Leaflet_Instance.1584,2,2,0.594602 
+Leaflet_Instance.1584,3,3,-1.182660 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1585,1,1,-0.870970 
+Leaflet_Instance.1585,2,2,0.620468 
+Leaflet_Instance.1585,3,3,-1.163010 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1586,1,1,-0.870970 
+Leaflet_Instance.1586,2,2,0.620468 
+Leaflet_Instance.1586,3,3,-1.163010 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1587,1,1,-0.870970 
+Leaflet_Instance.1587,2,2,0.620468 
+Leaflet_Instance.1587,3,3,-1.163010 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1588,1,1,-0.871876 
+Leaflet_Instance.1588,2,2,0.636946 
+Leaflet_Instance.1588,3,3,-1.139620 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1589,1,1,-0.871876 
+Leaflet_Instance.1589,2,2,0.636946 
+Leaflet_Instance.1589,3,3,-1.139620 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1590,1,1,-0.871876 
+Leaflet_Instance.1590,2,2,0.636946 
+Leaflet_Instance.1590,3,3,-1.139620 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1591,1,1,-0.863781 
+Leaflet_Instance.1591,2,2,0.644462 
+Leaflet_Instance.1591,3,3,-1.112840 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1592,1,1,-0.863781 
+Leaflet_Instance.1592,2,2,0.644462 
+Leaflet_Instance.1592,3,3,-1.112840 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1593,1,1,-0.863781 
+Leaflet_Instance.1593,2,2,0.644462 
+Leaflet_Instance.1593,3,3,-1.112840 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1594,1,1,-0.847464 
+Leaflet_Instance.1594,2,2,0.643728 
+Leaflet_Instance.1594,3,3,-1.082790 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1595,1,1,-0.847464 
+Leaflet_Instance.1595,2,2,0.643728 
+Leaflet_Instance.1595,3,3,-1.082790 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1596,1,1,-0.847464 
+Leaflet_Instance.1596,2,2,0.643728 
+Leaflet_Instance.1596,3,3,-1.082790 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1597,1,1,-0.823702 
+Leaflet_Instance.1597,2,2,0.635456 
+Leaflet_Instance.1597,3,3,-1.049560 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1598,1,1,-0.823702 
+Leaflet_Instance.1598,2,2,0.635456 
+Leaflet_Instance.1598,3,3,-1.049560 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1599,1,1,-0.823702 
+Leaflet_Instance.1599,2,2,0.635456 
+Leaflet_Instance.1599,3,3,-1.049560 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1600,1,1,-0.793273 
+Leaflet_Instance.1600,2,2,0.620358 
+Leaflet_Instance.1600,3,3,-1.013270 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1601,1,1,-0.793273 
+Leaflet_Instance.1601,2,2,0.620358 
+Leaflet_Instance.1601,3,3,-1.013270 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1602,1,1,-0.793273 
+Leaflet_Instance.1602,2,2,0.620358 
+Leaflet_Instance.1602,3,3,-1.013270 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1603,1,1,-0.756958 
+Leaflet_Instance.1603,2,2,0.599147 
+Leaflet_Instance.1603,3,3,-0.974028 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1604,1,1,-0.756958 
+Leaflet_Instance.1604,2,2,0.599147 
+Leaflet_Instance.1604,3,3,-0.974028 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1605,1,1,-0.756958 
+Leaflet_Instance.1605,2,2,0.599147 
+Leaflet_Instance.1605,3,3,-0.974028 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1606,1,1,-0.756958 
+Leaflet_Instance.1606,2,2,0.599147 
+Leaflet_Instance.1606,3,3,-0.974028 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1607,1,1,-0.715534 
+Leaflet_Instance.1607,2,2,0.572536 
+Leaflet_Instance.1607,3,3,-0.931954 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1608,1,1,-0.715534 
+Leaflet_Instance.1608,2,2,0.572536 
+Leaflet_Instance.1608,3,3,-0.931954 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1609,1,1,-0.715534 
+Leaflet_Instance.1609,2,2,0.572536 
+Leaflet_Instance.1609,3,3,-0.931954 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1610,1,1,-0.669778 
+Leaflet_Instance.1610,2,2,0.541234 
+Leaflet_Instance.1610,3,3,-0.887150 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1611,1,1,-0.669778 
+Leaflet_Instance.1611,2,2,0.541234 
+Leaflet_Instance.1611,3,3,-0.887150 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1612,1,1,-0.669778 
+Leaflet_Instance.1612,2,2,0.541234 
+Leaflet_Instance.1612,3,3,-0.887150 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1613,1,1,-0.620474 
+Leaflet_Instance.1613,2,2,0.505959 
+Leaflet_Instance.1613,3,3,-0.839736 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1614,1,1,-0.620474 
+Leaflet_Instance.1614,2,2,0.505959 
+Leaflet_Instance.1614,3,3,-0.839736 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1615,1,1,-0.620474 
+Leaflet_Instance.1615,2,2,0.505959 
+Leaflet_Instance.1615,3,3,-0.839736 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1616,1,1,-0.568399 
+Leaflet_Instance.1616,2,2,0.467421 
+Leaflet_Instance.1616,3,3,-0.789820 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1617,1,1,-0.568399 
+Leaflet_Instance.1617,2,2,0.467421 
+Leaflet_Instance.1617,3,3,-0.789820 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1618,1,1,-0.568399 
+Leaflet_Instance.1618,2,2,0.467421 
+Leaflet_Instance.1618,3,3,-0.789820 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1619,1,1,-0.514323 
+Leaflet_Instance.1619,2,2,0.426328 
+Leaflet_Instance.1619,3,3,-0.737505 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1620,1,1,-0.514323 
+Leaflet_Instance.1620,2,2,0.426328 
+Leaflet_Instance.1620,3,3,-0.737505 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1621,1,1,-0.514323 
+Leaflet_Instance.1621,2,2,0.426328 
+Leaflet_Instance.1621,3,3,-0.737505 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1622,1,1,-0.459035 
+Leaflet_Instance.1622,2,2,0.383397 
+Leaflet_Instance.1622,3,3,-0.682912 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1623,1,1,-0.459035 
+Leaflet_Instance.1623,2,2,0.383397 
+Leaflet_Instance.1623,3,3,-0.682912 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1624,1,1,-0.459035 
+Leaflet_Instance.1624,2,2,0.383397 
+Leaflet_Instance.1624,3,3,-0.682912 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1625,1,1,-0.459035 
+Leaflet_Instance.1625,2,2,0.383397 
+Leaflet_Instance.1625,3,3,-0.682912 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1626,1,1,-0.403314 
+Leaflet_Instance.1626,2,2,0.339344 
+Leaflet_Instance.1626,3,3,-0.626152 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1627,1,1,-0.403314 
+Leaflet_Instance.1627,2,2,0.339344 
+Leaflet_Instance.1627,3,3,-0.626152 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1628,1,1,-0.403314 
+Leaflet_Instance.1628,2,2,0.339344 
+Leaflet_Instance.1628,3,3,-0.626152 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1629,1,1,-0.347929 
+Leaflet_Instance.1629,2,2,0.294872 
+Leaflet_Instance.1629,3,3,-0.567329 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1630,1,1,-0.347929 
+Leaflet_Instance.1630,2,2,0.294872 
+Leaflet_Instance.1630,3,3,-0.567329 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1631,1,1,-0.293662 
+Leaflet_Instance.1631,2,2,0.250696 
+Leaflet_Instance.1631,3,3,-0.506555 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1632,1,1,-0.293662 
+Leaflet_Instance.1632,2,2,0.250696 
+Leaflet_Instance.1632,3,3,-0.506555 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1633,1,1,-0.293662 
+Leaflet_Instance.1633,2,2,0.250696 
+Leaflet_Instance.1633,3,3,-0.506555 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1634,1,1,-0.241296 
+Leaflet_Instance.1634,2,2,0.207532 
+Leaflet_Instance.1634,3,3,-0.443945 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1635,1,1,-0.241296 
+Leaflet_Instance.1635,2,2,0.207532 
+Leaflet_Instance.1635,3,3,-0.443945 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1636,1,1,-0.241296 
+Leaflet_Instance.1636,2,2,0.207532 
+Leaflet_Instance.1636,3,3,-0.443945 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1637,1,1,-0.191608 
+Leaflet_Instance.1637,2,2,0.166092 
+Leaflet_Instance.1637,3,3,-0.379611 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1638,1,1,-0.191608 
+Leaflet_Instance.1638,2,2,0.166092 
+Leaflet_Instance.1638,3,3,-0.379611 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1639,1,1,-0.191608 
+Leaflet_Instance.1639,2,2,0.166092 
+Leaflet_Instance.1639,3,3,-0.379611 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1640,1,1,-0.145376 
+Leaflet_Instance.1640,2,2,0.127087 
+Leaflet_Instance.1640,3,3,-0.313661 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1641,1,1,-0.145376 
+Leaflet_Instance.1641,2,2,0.127087 
+Leaflet_Instance.1641,3,3,-0.313661 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1642,1,1,-0.103375 
+Leaflet_Instance.1642,2,2,0.091226 
+Leaflet_Instance.1642,3,3,-0.246203 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1643,1,1,-0.103375 
+Leaflet_Instance.1643,2,2,0.091226 
+Leaflet_Instance.1643,3,3,-0.246203 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1644,1,1,-0.103375 
+Leaflet_Instance.1644,2,2,0.091226 
+Leaflet_Instance.1644,3,3,-0.246203 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1645,1,1,-0.066390 
+Leaflet_Instance.1645,2,2,0.059228 
+Leaflet_Instance.1645,3,3,-0.177357 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1646,1,1,-0.066390 
+Leaflet_Instance.1646,2,2,0.059228 
+Leaflet_Instance.1646,3,3,-0.177357 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1647,1,1,-0.035190 
+Leaflet_Instance.1647,2,2,0.031797 
+Leaflet_Instance.1647,3,3,-0.107210 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1648,1,1,-0.035190 
+Leaflet_Instance.1648,2,2,0.031797 
+Leaflet_Instance.1648,3,3,-0.107210 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1649,1,1,-0.010567 
+Leaflet_Instance.1649,2,2,0.009655 
+Leaflet_Instance.1649,3,3,-0.035909 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.1650,1,1,-0.010567 
+Leaflet_Instance.1650,2,2,0.009655 
+Leaflet_Instance.1650,3,3,-0.035909 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6720,1,1,0.002038 
+Leaflet_Instance.6720,2,2,-0.001880 
+Leaflet_Instance.6720,3,3,0.028201 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6721,1,1,0.002038 
+Leaflet_Instance.6721,2,2,-0.001880 
+Leaflet_Instance.6721,3,3,0.028201 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6722,1,1,0.002744 
+Leaflet_Instance.6722,2,2,-0.004197 
+Leaflet_Instance.6722,3,3,0.083700 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6723,1,1,0.002744 
+Leaflet_Instance.6723,2,2,-0.004197 
+Leaflet_Instance.6723,3,3,0.083700 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6724,1,1,-0.002880 
+Leaflet_Instance.6724,2,2,-0.003592 
+Leaflet_Instance.6724,3,3,0.137068 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6725,1,1,-0.002880 
+Leaflet_Instance.6725,2,2,-0.003592 
+Leaflet_Instance.6725,3,3,0.137068 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6726,1,1,-0.014010 
+Leaflet_Instance.6726,2,2,0.000001 
+Leaflet_Instance.6726,3,3,0.187693 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6727,1,1,-0.014010 
+Leaflet_Instance.6727,2,2,0.000001 
+Leaflet_Instance.6727,3,3,0.187693 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6728,1,1,-0.029816 
+Leaflet_Instance.6728,2,2,0.006648 
+Leaflet_Instance.6728,3,3,0.234938 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6729,1,1,-0.029816 
+Leaflet_Instance.6729,2,2,0.006648 
+Leaflet_Instance.6729,3,3,0.234938 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6730,1,1,-0.049466 
+Leaflet_Instance.6730,2,2,0.016413 
+Leaflet_Instance.6730,3,3,0.278147 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6731,1,1,-0.049466 
+Leaflet_Instance.6731,2,2,0.016413 
+Leaflet_Instance.6731,3,3,0.278147 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6732,1,1,-0.049466 
+Leaflet_Instance.6732,2,2,0.016413 
+Leaflet_Instance.6732,3,3,0.278147 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6733,1,1,-0.072133 
+Leaflet_Instance.6733,2,2,0.029361 
+Leaflet_Instance.6733,3,3,0.316693 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6734,1,1,-0.072133 
+Leaflet_Instance.6734,2,2,0.029361 
+Leaflet_Instance.6734,3,3,0.316693 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6735,1,1,-0.096989 
+Leaflet_Instance.6735,2,2,0.045560 
+Leaflet_Instance.6735,3,3,0.349945 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6736,1,1,-0.096989 
+Leaflet_Instance.6736,2,2,0.045560 
+Leaflet_Instance.6736,3,3,0.349945 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6737,1,1,-0.123206 
+Leaflet_Instance.6737,2,2,0.065074 
+Leaflet_Instance.6737,3,3,0.377263 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6738,1,1,-0.123206 
+Leaflet_Instance.6738,2,2,0.065074 
+Leaflet_Instance.6738,3,3,0.377263 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6739,1,1,-0.123206 
+Leaflet_Instance.6739,2,2,0.065074 
+Leaflet_Instance.6739,3,3,0.377263 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6740,1,1,-0.149950 
+Leaflet_Instance.6740,2,2,0.087964 
+Leaflet_Instance.6740,3,3,0.398010 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6741,1,1,-0.149950 
+Leaflet_Instance.6741,2,2,0.087964 
+Leaflet_Instance.6741,3,3,0.398010 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6742,1,1,-0.176399 
+Leaflet_Instance.6742,2,2,0.114303 
+Leaflet_Instance.6742,3,3,0.411555 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6743,1,1,-0.176399 
+Leaflet_Instance.6743,2,2,0.114303 
+Leaflet_Instance.6743,3,3,0.411555 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6744,1,1,-0.201729 
+Leaflet_Instance.6744,2,2,0.144147 
+Leaflet_Instance.6744,3,3,0.417235 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6745,1,1,-0.201729 
+Leaflet_Instance.6745,2,2,0.144147 
+Leaflet_Instance.6745,3,3,0.417235 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6746,1,1,-0.201729 
+Leaflet_Instance.6746,2,2,0.144147 
+Leaflet_Instance.6746,3,3,0.417235 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6747,1,1,-0.225381 
+Leaflet_Instance.6747,2,2,0.177341 
+Leaflet_Instance.6747,3,3,0.414007 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6748,1,1,-0.225381 
+Leaflet_Instance.6748,2,2,0.177341 
+Leaflet_Instance.6748,3,3,0.414007 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6749,1,1,-0.247345 
+Leaflet_Instance.6749,2,2,0.213473 
+Leaflet_Instance.6749,3,3,0.401506 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6750,1,1,-0.247345 
+Leaflet_Instance.6750,2,2,0.213473 
+Leaflet_Instance.6750,3,3,0.401506 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6751,1,1,-0.267873 
+Leaflet_Instance.6751,2,2,0.252096 
+Leaflet_Instance.6751,3,3,0.380787 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6752,1,1,-0.267873 
+Leaflet_Instance.6752,2,2,0.252096 
+Leaflet_Instance.6752,3,3,0.380787 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6753,1,1,-0.287235 
+Leaflet_Instance.6753,2,2,0.292844 
+Leaflet_Instance.6753,3,3,0.353259 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6754,1,1,-0.287235 
+Leaflet_Instance.6754,2,2,0.292844 
+Leaflet_Instance.6754,3,3,0.353259 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6755,1,1,-0.287235 
+Leaflet_Instance.6755,2,2,0.292844 
+Leaflet_Instance.6755,3,3,0.353259 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6756,1,1,-0.305689 
+Leaflet_Instance.6756,2,2,0.335332 
+Leaflet_Instance.6756,3,3,0.320349 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6757,1,1,-0.305689 
+Leaflet_Instance.6757,2,2,0.335332 
+Leaflet_Instance.6757,3,3,0.320349 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6758,1,1,-0.323484 
+Leaflet_Instance.6758,2,2,0.379150 
+Leaflet_Instance.6758,3,3,0.283498 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6759,1,1,-0.323484 
+Leaflet_Instance.6759,2,2,0.379150 
+Leaflet_Instance.6759,3,3,0.283498 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6760,1,1,-0.340892 
+Leaflet_Instance.6760,2,2,0.423944 
+Leaflet_Instance.6760,3,3,0.244105 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6761,1,1,-0.340892 
+Leaflet_Instance.6761,2,2,0.423944 
+Leaflet_Instance.6761,3,3,0.244105 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6762,1,1,-0.358162 
+Leaflet_Instance.6762,2,2,0.469300 
+Leaflet_Instance.6762,3,3,0.203618 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6763,1,1,-0.358162 
+Leaflet_Instance.6763,2,2,0.469300 
+Leaflet_Instance.6763,3,3,0.203618 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6764,1,1,-0.358162 
+Leaflet_Instance.6764,2,2,0.469300 
+Leaflet_Instance.6764,3,3,0.203618 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6765,1,1,-0.375557 
+Leaflet_Instance.6765,2,2,0.514843 
+Leaflet_Instance.6765,3,3,0.163453 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6766,1,1,-0.375557 
+Leaflet_Instance.6766,2,2,0.514843 
+Leaflet_Instance.6766,3,3,0.163453 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6767,1,1,-0.393344 
+Leaflet_Instance.6767,2,2,0.560205 
+Leaflet_Instance.6767,3,3,0.125019 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6768,1,1,-0.393344 
+Leaflet_Instance.6768,2,2,0.560205 
+Leaflet_Instance.6768,3,3,0.125019 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6769,1,1,-0.393344 
+Leaflet_Instance.6769,2,2,0.560205 
+Leaflet_Instance.6769,3,3,0.125019 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6770,1,1,-0.411770 
+Leaflet_Instance.6770,2,2,0.604973 
+Leaflet_Instance.6770,3,3,0.089766 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6771,1,1,-0.411770 
+Leaflet_Instance.6771,2,2,0.604973 
+Leaflet_Instance.6771,3,3,0.089766 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6772,1,1,-0.431088 
+Leaflet_Instance.6772,2,2,0.648747 
+Leaflet_Instance.6772,3,3,0.059123 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6773,1,1,-0.431088 
+Leaflet_Instance.6773,2,2,0.648747 
+Leaflet_Instance.6773,3,3,0.059123 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6774,1,1,-0.451575 
+Leaflet_Instance.6774,2,2,0.691178 
+Leaflet_Instance.6774,3,3,0.034492 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6775,1,1,-0.451575 
+Leaflet_Instance.6775,2,2,0.691178 
+Leaflet_Instance.6775,3,3,0.034492 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6776,1,1,-0.451575 
+Leaflet_Instance.6776,2,2,0.691178 
+Leaflet_Instance.6776,3,3,0.034492 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6777,1,1,-0.473493 
+Leaflet_Instance.6777,2,2,0.731889 
+Leaflet_Instance.6777,3,3,0.017291 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6778,1,1,-0.473493 
+Leaflet_Instance.6778,2,2,0.731889 
+Leaflet_Instance.6778,3,3,0.017291 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6779,1,1,-0.497073 
+Leaflet_Instance.6779,2,2,0.770443 
+Leaflet_Instance.6779,3,3,0.008968 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6780,1,1,-0.497073 
+Leaflet_Instance.6780,2,2,0.770443 
+Leaflet_Instance.6780,3,3,0.008968 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6781,1,1,-0.522596 
+Leaflet_Instance.6781,2,2,0.806491 
+Leaflet_Instance.6781,3,3,0.010932 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6782,1,1,-0.522596 
+Leaflet_Instance.6782,2,2,0.806491 
+Leaflet_Instance.6782,3,3,0.010932 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6783,1,1,-0.550342 
+Leaflet_Instance.6783,2,2,0.839669 
+Leaflet_Instance.6783,3,3,0.024625 
+*Boundary, op=NEW,amplitude=Amp-1 
+Leaflet_Instance.6784,1,1,-0.564805 
+Leaflet_Instance.6784,2,2,0.855493 
+Leaflet_Instance.6784,3,3,0.034586 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8588,1,1,0.000000 
+Leaflet_Instance.8588,2,2,0.000000 
+Leaflet_Instance.8588,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8599,1,1,0.000000 
+Leaflet_Instance.8599,2,2,0.000000 
+Leaflet_Instance.8599,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8610,1,1,0.000000 
+Leaflet_Instance.8610,2,2,0.000000 
+Leaflet_Instance.8610,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8621,1,1,0.000000 
+Leaflet_Instance.8621,2,2,0.000000 
+Leaflet_Instance.8621,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8632,1,1,0.000000 
+Leaflet_Instance.8632,2,2,0.000000 
+Leaflet_Instance.8632,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8643,1,1,0.000000 
+Leaflet_Instance.8643,2,2,0.000000 
+Leaflet_Instance.8643,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8654,1,1,0.000000 
+Leaflet_Instance.8654,2,2,0.000000 
+Leaflet_Instance.8654,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8665,1,1,0.000000 
+Leaflet_Instance.8665,2,2,0.000000 
+Leaflet_Instance.8665,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8676,1,1,0.000000 
+Leaflet_Instance.8676,2,2,0.000000 
+Leaflet_Instance.8676,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8687,1,1,0.000000 
+Leaflet_Instance.8687,2,2,0.000000 
+Leaflet_Instance.8687,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8698,1,1,0.000000 
+Leaflet_Instance.8698,2,2,0.000000 
+Leaflet_Instance.8698,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8709,1,1,0.000000 
+Leaflet_Instance.8709,2,2,0.000000 
+Leaflet_Instance.8709,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8720,1,1,0.000000 
+Leaflet_Instance.8720,2,2,0.000000 
+Leaflet_Instance.8720,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8731,1,1,0.000000 
+Leaflet_Instance.8731,2,2,0.000000 
+Leaflet_Instance.8731,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8742,1,1,0.000000 
+Leaflet_Instance.8742,2,2,0.000000 
+Leaflet_Instance.8742,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8753,1,1,0.000000 
+Leaflet_Instance.8753,2,2,0.000000 
+Leaflet_Instance.8753,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8764,1,1,0.000000 
+Leaflet_Instance.8764,2,2,0.000000 
+Leaflet_Instance.8764,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8775,1,1,0.000000 
+Leaflet_Instance.8775,2,2,0.000000 
+Leaflet_Instance.8775,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8786,1,1,0.000000 
+Leaflet_Instance.8786,2,2,0.000000 
+Leaflet_Instance.8786,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8797,1,1,0.000000 
+Leaflet_Instance.8797,2,2,0.000000 
+Leaflet_Instance.8797,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8808,1,1,0.000000 
+Leaflet_Instance.8808,2,2,0.000000 
+Leaflet_Instance.8808,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8819,1,1,0.000000 
+Leaflet_Instance.8819,2,2,0.000000 
+Leaflet_Instance.8819,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8830,1,1,0.000000 
+Leaflet_Instance.8830,2,2,0.000000 
+Leaflet_Instance.8830,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8841,1,1,0.000000 
+Leaflet_Instance.8841,2,2,0.000000 
+Leaflet_Instance.8841,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8852,1,1,0.000000 
+Leaflet_Instance.8852,2,2,0.000000 
+Leaflet_Instance.8852,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8863,1,1,0.000000 
+Leaflet_Instance.8863,2,2,0.000000 
+Leaflet_Instance.8863,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8874,1,1,0.000000 
+Leaflet_Instance.8874,2,2,0.000000 
+Leaflet_Instance.8874,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8885,1,1,0.000000 
+Leaflet_Instance.8885,2,2,0.000000 
+Leaflet_Instance.8885,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8896,1,1,0.000000 
+Leaflet_Instance.8896,2,2,0.000000 
+Leaflet_Instance.8896,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8907,1,1,0.000000 
+Leaflet_Instance.8907,2,2,0.000000 
+Leaflet_Instance.8907,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8918,1,1,0.000000 
+Leaflet_Instance.8918,2,2,0.000000 
+Leaflet_Instance.8918,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8929,1,1,0.000000 
+Leaflet_Instance.8929,2,2,0.000000 
+Leaflet_Instance.8929,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8940,1,1,0.000000 
+Leaflet_Instance.8940,2,2,0.000000 
+Leaflet_Instance.8940,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8951,1,1,0.000000 
+Leaflet_Instance.8951,2,2,0.000000 
+Leaflet_Instance.8951,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8962,1,1,0.000000 
+Leaflet_Instance.8962,2,2,0.000000 
+Leaflet_Instance.8962,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8973,1,1,0.000000 
+Leaflet_Instance.8973,2,2,0.000000 
+Leaflet_Instance.8973,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8984,1,1,0.000000 
+Leaflet_Instance.8984,2,2,0.000000 
+Leaflet_Instance.8984,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.8995,1,1,0.000000 
+Leaflet_Instance.8995,2,2,0.000000 
+Leaflet_Instance.8995,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9006,1,1,0.000000 
+Leaflet_Instance.9006,2,2,0.000000 
+Leaflet_Instance.9006,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9017,1,1,0.000000 
+Leaflet_Instance.9017,2,2,0.000000 
+Leaflet_Instance.9017,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9028,1,1,0.000000 
+Leaflet_Instance.9028,2,2,0.000000 
+Leaflet_Instance.9028,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9039,1,1,0.000000 
+Leaflet_Instance.9039,2,2,0.000000 
+Leaflet_Instance.9039,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9050,1,1,0.000000 
+Leaflet_Instance.9050,2,2,0.000000 
+Leaflet_Instance.9050,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9061,1,1,0.000000 
+Leaflet_Instance.9061,2,2,0.000000 
+Leaflet_Instance.9061,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9072,1,1,0.000000 
+Leaflet_Instance.9072,2,2,0.000000 
+Leaflet_Instance.9072,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9083,1,1,0.000000 
+Leaflet_Instance.9083,2,2,0.000000 
+Leaflet_Instance.9083,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9094,1,1,0.000000 
+Leaflet_Instance.9094,2,2,0.000000 
+Leaflet_Instance.9094,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9105,1,1,0.000000 
+Leaflet_Instance.9105,2,2,0.000000 
+Leaflet_Instance.9105,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9116,1,1,0.000000 
+Leaflet_Instance.9116,2,2,0.000000 
+Leaflet_Instance.9116,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9127,1,1,0.000000 
+Leaflet_Instance.9127,2,2,0.000000 
+Leaflet_Instance.9127,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9138,1,1,0.000000 
+Leaflet_Instance.9138,2,2,0.000000 
+Leaflet_Instance.9138,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9149,1,1,0.000000 
+Leaflet_Instance.9149,2,2,0.000000 
+Leaflet_Instance.9149,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9160,1,1,0.000000 
+Leaflet_Instance.9160,2,2,0.000000 
+Leaflet_Instance.9160,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9171,1,1,0.000000 
+Leaflet_Instance.9171,2,2,0.000000 
+Leaflet_Instance.9171,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9182,1,1,0.000000 
+Leaflet_Instance.9182,2,2,0.000000 
+Leaflet_Instance.9182,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9193,1,1,0.000000 
+Leaflet_Instance.9193,2,2,0.000000 
+Leaflet_Instance.9193,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9204,1,1,0.000000 
+Leaflet_Instance.9204,2,2,0.000000 
+Leaflet_Instance.9204,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9215,1,1,0.000000 
+Leaflet_Instance.9215,2,2,0.000000 
+Leaflet_Instance.9215,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9226,1,1,0.000000 
+Leaflet_Instance.9226,2,2,0.000000 
+Leaflet_Instance.9226,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9237,1,1,0.000000 
+Leaflet_Instance.9237,2,2,0.000000 
+Leaflet_Instance.9237,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9248,1,1,0.000000 
+Leaflet_Instance.9248,2,2,0.000000 
+Leaflet_Instance.9248,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9259,1,1,0.000000 
+Leaflet_Instance.9259,2,2,0.000000 
+Leaflet_Instance.9259,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9270,1,1,0.000000 
+Leaflet_Instance.9270,2,2,0.000000 
+Leaflet_Instance.9270,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9281,1,1,0.000000 
+Leaflet_Instance.9281,2,2,0.000000 
+Leaflet_Instance.9281,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9292,1,1,0.000000 
+Leaflet_Instance.9292,2,2,0.000000 
+Leaflet_Instance.9292,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9303,1,1,0.000000 
+Leaflet_Instance.9303,2,2,0.000000 
+Leaflet_Instance.9303,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9314,1,1,0.000000 
+Leaflet_Instance.9314,2,2,0.000000 
+Leaflet_Instance.9314,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9325,1,1,0.000000 
+Leaflet_Instance.9325,2,2,0.000000 
+Leaflet_Instance.9325,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9336,1,1,0.000000 
+Leaflet_Instance.9336,2,2,0.000000 
+Leaflet_Instance.9336,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9347,1,1,0.000000 
+Leaflet_Instance.9347,2,2,0.000000 
+Leaflet_Instance.9347,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9358,1,1,0.000000 
+Leaflet_Instance.9358,2,2,0.000000 
+Leaflet_Instance.9358,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9369,1,1,0.000000 
+Leaflet_Instance.9369,2,2,0.000000 
+Leaflet_Instance.9369,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9380,1,1,0.000000 
+Leaflet_Instance.9380,2,2,0.000000 
+Leaflet_Instance.9380,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9391,1,1,0.000000 
+Leaflet_Instance.9391,2,2,0.000000 
+Leaflet_Instance.9391,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9402,1,1,0.000000 
+Leaflet_Instance.9402,2,2,0.000000 
+Leaflet_Instance.9402,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9413,1,1,0.000000 
+Leaflet_Instance.9413,2,2,0.000000 
+Leaflet_Instance.9413,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9424,1,1,0.000000 
+Leaflet_Instance.9424,2,2,0.000000 
+Leaflet_Instance.9424,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9435,1,1,0.000000 
+Leaflet_Instance.9435,2,2,0.000000 
+Leaflet_Instance.9435,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9446,1,1,0.000000 
+Leaflet_Instance.9446,2,2,0.000000 
+Leaflet_Instance.9446,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9457,1,1,0.000000 
+Leaflet_Instance.9457,2,2,0.000000 
+Leaflet_Instance.9457,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9468,1,1,0.000000 
+Leaflet_Instance.9468,2,2,0.000000 
+Leaflet_Instance.9468,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9479,1,1,0.000000 
+Leaflet_Instance.9479,2,2,0.000000 
+Leaflet_Instance.9479,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9490,1,1,0.000000 
+Leaflet_Instance.9490,2,2,0.000000 
+Leaflet_Instance.9490,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9501,1,1,0.000000 
+Leaflet_Instance.9501,2,2,0.000000 
+Leaflet_Instance.9501,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9512,1,1,0.000000 
+Leaflet_Instance.9512,2,2,0.000000 
+Leaflet_Instance.9512,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9523,1,1,0.000000 
+Leaflet_Instance.9523,2,2,0.000000 
+Leaflet_Instance.9523,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9534,1,1,0.000000 
+Leaflet_Instance.9534,2,2,0.000000 
+Leaflet_Instance.9534,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9545,1,1,0.000000 
+Leaflet_Instance.9545,2,2,0.000000 
+Leaflet_Instance.9545,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9556,1,1,0.000000 
+Leaflet_Instance.9556,2,2,0.000000 
+Leaflet_Instance.9556,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9567,1,1,0.000000 
+Leaflet_Instance.9567,2,2,0.000000 
+Leaflet_Instance.9567,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9578,1,1,0.000000 
+Leaflet_Instance.9578,2,2,0.000000 
+Leaflet_Instance.9578,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9589,1,1,0.000000 
+Leaflet_Instance.9589,2,2,0.000000 
+Leaflet_Instance.9589,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9600,1,1,0.000000 
+Leaflet_Instance.9600,2,2,0.000000 
+Leaflet_Instance.9600,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9611,1,1,0.000000 
+Leaflet_Instance.9611,2,2,0.000000 
+Leaflet_Instance.9611,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9622,1,1,0.000000 
+Leaflet_Instance.9622,2,2,0.000000 
+Leaflet_Instance.9622,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9633,1,1,0.000000 
+Leaflet_Instance.9633,2,2,0.000000 
+Leaflet_Instance.9633,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9644,1,1,0.000000 
+Leaflet_Instance.9644,2,2,0.000000 
+Leaflet_Instance.9644,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9655,1,1,0.000000 
+Leaflet_Instance.9655,2,2,0.000000 
+Leaflet_Instance.9655,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9666,1,1,0.000000 
+Leaflet_Instance.9666,2,2,0.000000 
+Leaflet_Instance.9666,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9677,1,1,0.000000 
+Leaflet_Instance.9677,2,2,0.000000 
+Leaflet_Instance.9677,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9688,1,1,0.000000 
+Leaflet_Instance.9688,2,2,0.000000 
+Leaflet_Instance.9688,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9699,1,1,0.000000 
+Leaflet_Instance.9699,2,2,0.000000 
+Leaflet_Instance.9699,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9710,1,1,0.000000 
+Leaflet_Instance.9710,2,2,0.000000 
+Leaflet_Instance.9710,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9721,1,1,0.000000 
+Leaflet_Instance.9721,2,2,0.000000 
+Leaflet_Instance.9721,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9732,1,1,0.000000 
+Leaflet_Instance.9732,2,2,0.000000 
+Leaflet_Instance.9732,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9743,1,1,0.000000 
+Leaflet_Instance.9743,2,2,0.000000 
+Leaflet_Instance.9743,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9754,1,1,0.000000 
+Leaflet_Instance.9754,2,2,0.000000 
+Leaflet_Instance.9754,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9765,1,1,0.000000 
+Leaflet_Instance.9765,2,2,0.000000 
+Leaflet_Instance.9765,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9776,1,1,0.000000 
+Leaflet_Instance.9776,2,2,0.000000 
+Leaflet_Instance.9776,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9787,1,1,0.000000 
+Leaflet_Instance.9787,2,2,0.000000 
+Leaflet_Instance.9787,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9798,1,1,0.000000 
+Leaflet_Instance.9798,2,2,0.000000 
+Leaflet_Instance.9798,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9809,1,1,0.000000 
+Leaflet_Instance.9809,2,2,0.000000 
+Leaflet_Instance.9809,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9820,1,1,0.000000 
+Leaflet_Instance.9820,2,2,0.000000 
+Leaflet_Instance.9820,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9831,1,1,0.000000 
+Leaflet_Instance.9831,2,2,0.000000 
+Leaflet_Instance.9831,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9842,1,1,0.000000 
+Leaflet_Instance.9842,2,2,0.000000 
+Leaflet_Instance.9842,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9853,1,1,0.000000 
+Leaflet_Instance.9853,2,2,0.000000 
+Leaflet_Instance.9853,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9864,1,1,0.000000 
+Leaflet_Instance.9864,2,2,0.000000 
+Leaflet_Instance.9864,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9875,1,1,0.000000 
+Leaflet_Instance.9875,2,2,0.000000 
+Leaflet_Instance.9875,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9886,1,1,0.000000 
+Leaflet_Instance.9886,2,2,0.000000 
+Leaflet_Instance.9886,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9897,1,1,0.000000 
+Leaflet_Instance.9897,2,2,0.000000 
+Leaflet_Instance.9897,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9908,1,1,0.000000 
+Leaflet_Instance.9908,2,2,0.000000 
+Leaflet_Instance.9908,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9919,1,1,0.000000 
+Leaflet_Instance.9919,2,2,0.000000 
+Leaflet_Instance.9919,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9930,1,1,0.000000 
+Leaflet_Instance.9930,2,2,0.000000 
+Leaflet_Instance.9930,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9941,1,1,0.000000 
+Leaflet_Instance.9941,2,2,0.000000 
+Leaflet_Instance.9941,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9952,1,1,0.000000 
+Leaflet_Instance.9952,2,2,0.000000 
+Leaflet_Instance.9952,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9963,1,1,0.000000 
+Leaflet_Instance.9963,2,2,0.000000 
+Leaflet_Instance.9963,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9974,1,1,0.000000 
+Leaflet_Instance.9974,2,2,0.000000 
+Leaflet_Instance.9974,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9985,1,1,0.000000 
+Leaflet_Instance.9985,2,2,0.000000 
+Leaflet_Instance.9985,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.9996,1,1,0.000000 
+Leaflet_Instance.9996,2,2,0.000000 
+Leaflet_Instance.9996,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10007,1,1,0.000000 
+Leaflet_Instance.10007,2,2,0.000000 
+Leaflet_Instance.10007,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10018,1,1,0.000000 
+Leaflet_Instance.10018,2,2,0.000000 
+Leaflet_Instance.10018,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10029,1,1,0.000000 
+Leaflet_Instance.10029,2,2,0.000000 
+Leaflet_Instance.10029,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10040,1,1,0.000000 
+Leaflet_Instance.10040,2,2,0.000000 
+Leaflet_Instance.10040,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10051,1,1,0.000000 
+Leaflet_Instance.10051,2,2,0.000000 
+Leaflet_Instance.10051,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10062,1,1,0.000000 
+Leaflet_Instance.10062,2,2,0.000000 
+Leaflet_Instance.10062,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10073,1,1,0.000000 
+Leaflet_Instance.10073,2,2,0.000000 
+Leaflet_Instance.10073,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10084,1,1,0.000000 
+Leaflet_Instance.10084,2,2,0.000000 
+Leaflet_Instance.10084,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10095,1,1,0.000000 
+Leaflet_Instance.10095,2,2,0.000000 
+Leaflet_Instance.10095,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10106,1,1,0.000000 
+Leaflet_Instance.10106,2,2,0.000000 
+Leaflet_Instance.10106,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10117,1,1,0.000000 
+Leaflet_Instance.10117,2,2,0.000000 
+Leaflet_Instance.10117,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10128,1,1,0.000000 
+Leaflet_Instance.10128,2,2,0.000000 
+Leaflet_Instance.10128,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10139,1,1,0.000000 
+Leaflet_Instance.10139,2,2,0.000000 
+Leaflet_Instance.10139,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10150,1,1,0.000000 
+Leaflet_Instance.10150,2,2,0.000000 
+Leaflet_Instance.10150,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10161,1,1,0.000000 
+Leaflet_Instance.10161,2,2,0.000000 
+Leaflet_Instance.10161,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10172,1,1,0.000000 
+Leaflet_Instance.10172,2,2,0.000000 
+Leaflet_Instance.10172,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10183,1,1,0.000000 
+Leaflet_Instance.10183,2,2,0.000000 
+Leaflet_Instance.10183,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10194,1,1,0.000000 
+Leaflet_Instance.10194,2,2,0.000000 
+Leaflet_Instance.10194,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10205,1,1,0.000000 
+Leaflet_Instance.10205,2,2,0.000000 
+Leaflet_Instance.10205,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10216,1,1,0.000000 
+Leaflet_Instance.10216,2,2,0.000000 
+Leaflet_Instance.10216,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10227,1,1,0.000000 
+Leaflet_Instance.10227,2,2,0.000000 
+Leaflet_Instance.10227,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10238,1,1,0.000000 
+Leaflet_Instance.10238,2,2,0.000000 
+Leaflet_Instance.10238,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10249,1,1,0.000000 
+Leaflet_Instance.10249,2,2,0.000000 
+Leaflet_Instance.10249,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10260,1,1,0.000000 
+Leaflet_Instance.10260,2,2,0.000000 
+Leaflet_Instance.10260,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10271,1,1,0.000000 
+Leaflet_Instance.10271,2,2,0.000000 
+Leaflet_Instance.10271,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10282,1,1,0.000000 
+Leaflet_Instance.10282,2,2,0.000000 
+Leaflet_Instance.10282,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10293,1,1,0.000000 
+Leaflet_Instance.10293,2,2,0.000000 
+Leaflet_Instance.10293,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10304,1,1,0.000000 
+Leaflet_Instance.10304,2,2,0.000000 
+Leaflet_Instance.10304,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10315,1,1,0.000000 
+Leaflet_Instance.10315,2,2,0.000000 
+Leaflet_Instance.10315,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10326,1,1,0.000000 
+Leaflet_Instance.10326,2,2,0.000000 
+Leaflet_Instance.10326,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10337,1,1,0.000000 
+Leaflet_Instance.10337,2,2,0.000000 
+Leaflet_Instance.10337,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10348,1,1,0.000000 
+Leaflet_Instance.10348,2,2,0.000000 
+Leaflet_Instance.10348,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10359,1,1,0.000000 
+Leaflet_Instance.10359,2,2,0.000000 
+Leaflet_Instance.10359,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10370,1,1,0.000000 
+Leaflet_Instance.10370,2,2,0.000000 
+Leaflet_Instance.10370,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10381,1,1,0.000000 
+Leaflet_Instance.10381,2,2,0.000000 
+Leaflet_Instance.10381,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10392,1,1,0.000000 
+Leaflet_Instance.10392,2,2,0.000000 
+Leaflet_Instance.10392,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10403,1,1,0.000000 
+Leaflet_Instance.10403,2,2,0.000000 
+Leaflet_Instance.10403,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10414,1,1,0.000000 
+Leaflet_Instance.10414,2,2,0.000000 
+Leaflet_Instance.10414,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10425,1,1,0.000000 
+Leaflet_Instance.10425,2,2,0.000000 
+Leaflet_Instance.10425,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10436,1,1,0.000000 
+Leaflet_Instance.10436,2,2,0.000000 
+Leaflet_Instance.10436,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10447,1,1,0.000000 
+Leaflet_Instance.10447,2,2,0.000000 
+Leaflet_Instance.10447,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10458,1,1,0.000000 
+Leaflet_Instance.10458,2,2,0.000000 
+Leaflet_Instance.10458,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10469,1,1,0.000000 
+Leaflet_Instance.10469,2,2,0.000000 
+Leaflet_Instance.10469,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10480,1,1,0.000000 
+Leaflet_Instance.10480,2,2,0.000000 
+Leaflet_Instance.10480,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10491,1,1,0.000000 
+Leaflet_Instance.10491,2,2,0.000000 
+Leaflet_Instance.10491,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10502,1,1,0.000000 
+Leaflet_Instance.10502,2,2,0.000000 
+Leaflet_Instance.10502,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10513,1,1,0.000000 
+Leaflet_Instance.10513,2,2,0.000000 
+Leaflet_Instance.10513,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10524,1,1,0.000000 
+Leaflet_Instance.10524,2,2,0.000000 
+Leaflet_Instance.10524,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10535,1,1,0.000000 
+Leaflet_Instance.10535,2,2,0.000000 
+Leaflet_Instance.10535,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10546,1,1,0.000000 
+Leaflet_Instance.10546,2,2,0.000000 
+Leaflet_Instance.10546,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10557,1,1,0.000000 
+Leaflet_Instance.10557,2,2,0.000000 
+Leaflet_Instance.10557,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10568,1,1,0.000000 
+Leaflet_Instance.10568,2,2,0.000000 
+Leaflet_Instance.10568,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10579,1,1,0.000000 
+Leaflet_Instance.10579,2,2,0.000000 
+Leaflet_Instance.10579,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10590,1,1,0.000000 
+Leaflet_Instance.10590,2,2,0.000000 
+Leaflet_Instance.10590,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10601,1,1,0.000000 
+Leaflet_Instance.10601,2,2,0.000000 
+Leaflet_Instance.10601,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10612,1,1,0.000000 
+Leaflet_Instance.10612,2,2,0.000000 
+Leaflet_Instance.10612,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10623,1,1,0.000000 
+Leaflet_Instance.10623,2,2,0.000000 
+Leaflet_Instance.10623,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10634,1,1,0.000000 
+Leaflet_Instance.10634,2,2,0.000000 
+Leaflet_Instance.10634,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10645,1,1,0.000000 
+Leaflet_Instance.10645,2,2,0.000000 
+Leaflet_Instance.10645,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10656,1,1,0.000000 
+Leaflet_Instance.10656,2,2,0.000000 
+Leaflet_Instance.10656,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10667,1,1,0.000000 
+Leaflet_Instance.10667,2,2,0.000000 
+Leaflet_Instance.10667,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10678,1,1,0.000000 
+Leaflet_Instance.10678,2,2,0.000000 
+Leaflet_Instance.10678,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10689,1,1,0.000000 
+Leaflet_Instance.10689,2,2,0.000000 
+Leaflet_Instance.10689,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10700,1,1,0.000000 
+Leaflet_Instance.10700,2,2,0.000000 
+Leaflet_Instance.10700,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10711,1,1,0.000000 
+Leaflet_Instance.10711,2,2,0.000000 
+Leaflet_Instance.10711,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10722,1,1,0.000000 
+Leaflet_Instance.10722,2,2,0.000000 
+Leaflet_Instance.10722,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10733,1,1,0.000000 
+Leaflet_Instance.10733,2,2,0.000000 
+Leaflet_Instance.10733,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10744,1,1,0.000000 
+Leaflet_Instance.10744,2,2,0.000000 
+Leaflet_Instance.10744,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10755,1,1,0.000000 
+Leaflet_Instance.10755,2,2,0.000000 
+Leaflet_Instance.10755,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10766,1,1,0.000000 
+Leaflet_Instance.10766,2,2,0.000000 
+Leaflet_Instance.10766,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10777,1,1,0.000000 
+Leaflet_Instance.10777,2,2,0.000000 
+Leaflet_Instance.10777,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10788,1,1,0.000000 
+Leaflet_Instance.10788,2,2,0.000000 
+Leaflet_Instance.10788,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10799,1,1,0.000000 
+Leaflet_Instance.10799,2,2,0.000000 
+Leaflet_Instance.10799,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10810,1,1,0.000000 
+Leaflet_Instance.10810,2,2,0.000000 
+Leaflet_Instance.10810,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10821,1,1,0.000000 
+Leaflet_Instance.10821,2,2,0.000000 
+Leaflet_Instance.10821,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10832,1,1,0.000000 
+Leaflet_Instance.10832,2,2,0.000000 
+Leaflet_Instance.10832,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10843,1,1,0.000000 
+Leaflet_Instance.10843,2,2,0.000000 
+Leaflet_Instance.10843,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10854,1,1,0.000000 
+Leaflet_Instance.10854,2,2,0.000000 
+Leaflet_Instance.10854,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10865,1,1,0.000000 
+Leaflet_Instance.10865,2,2,0.000000 
+Leaflet_Instance.10865,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10876,1,1,0.000000 
+Leaflet_Instance.10876,2,2,0.000000 
+Leaflet_Instance.10876,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10887,1,1,0.000000 
+Leaflet_Instance.10887,2,2,0.000000 
+Leaflet_Instance.10887,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10898,1,1,0.000000 
+Leaflet_Instance.10898,2,2,0.000000 
+Leaflet_Instance.10898,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10909,1,1,0.000000 
+Leaflet_Instance.10909,2,2,0.000000 
+Leaflet_Instance.10909,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10920,1,1,0.000000 
+Leaflet_Instance.10920,2,2,0.000000 
+Leaflet_Instance.10920,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10931,1,1,0.000000 
+Leaflet_Instance.10931,2,2,0.000000 
+Leaflet_Instance.10931,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10942,1,1,0.000000 
+Leaflet_Instance.10942,2,2,0.000000 
+Leaflet_Instance.10942,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10953,1,1,0.000000 
+Leaflet_Instance.10953,2,2,0.000000 
+Leaflet_Instance.10953,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10964,1,1,0.000000 
+Leaflet_Instance.10964,2,2,0.000000 
+Leaflet_Instance.10964,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10975,1,1,0.000000 
+Leaflet_Instance.10975,2,2,0.000000 
+Leaflet_Instance.10975,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10986,1,1,0.000000 
+Leaflet_Instance.10986,2,2,0.000000 
+Leaflet_Instance.10986,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.10997,1,1,0.000000 
+Leaflet_Instance.10997,2,2,0.000000 
+Leaflet_Instance.10997,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.11008,1,1,0.000000 
+Leaflet_Instance.11008,2,2,0.000000 
+Leaflet_Instance.11008,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.11019,1,1,0.000000 
+Leaflet_Instance.11019,2,2,0.000000 
+Leaflet_Instance.11019,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.11030,1,1,0.000000 
+Leaflet_Instance.11030,2,2,0.000000 
+Leaflet_Instance.11030,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.11041,1,1,0.000000 
+Leaflet_Instance.11041,2,2,0.000000 
+Leaflet_Instance.11041,3,3,0.000000 
+*Boundary,op=NEW,amplitude=Amp-1 
+Leaflet_Instance.11052,1,1,0.000000 
+Leaflet_Instance.11052,2,2,0.000000 
+Leaflet_Instance.11052,3,3,0.000000 
+*Dsload,op=NEW,amplitude=Amp-1 
+Leaflet_Surfaces, P, 3.059740e-03
+*Contact, op=NEW
+*Contact Inclusions
+LEAFLET_SURFACES , 
+*Contact Property Assignment
+ ,  , Interaction_Property
+*Output, field, variable=PRESELECT 
+*Output, history, variable=PRESELECT 
+*End Step

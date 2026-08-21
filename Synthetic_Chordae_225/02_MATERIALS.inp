@@ -1,0 +1,39 @@
+*Material, name=Anterior_Chordae 
+*Density 
+1e-9 
+*Hyperelastic, OGDEN, N=3 
+18.884147787615671,  98.253655062498183,  22.682992286286954, 98.251894443391549,  19.502933935159177,  98.253228660027887, 3.2760e-05, 0
+  0.,
+*Material, name=Posterior_Chordae 
+*Density 
+1e-9 
+*Hyperelastic, OGDEN, N=3 
+4.241553984852658,  55.914887194545429,   2.724796146859668, 55.915477229563507,   0.000037265674134,  70.715073154655229, 2.8719e-04, 0
+  0.,
+*Material, name=Septal_Chordae 
+*Density 
+1e-9 
+*Hyperelastic, OGDEN, N=3 
+33.7534784879460, 0.0001531670654, 0.0000145962860, 0.0003488130193, 0.0203430173299,   113.4473866780919, 5.9237e-05, 0
+  0.,
+*Material, name=VUANISO_ISO_1
+*Density
+1e-09,
+*anisotropic hyperelastic, user,formulation=invariant, local directions=1, type=compressible, properties=4
+0.001000, 20.066890, 0.000124, 4.568202
+*TRANSVERSE SHEAR
+5.000000e-03,5.000000e-03,0.0
+*Material, name=VUANISO_ISO_2
+*Density
+1e-09,
+*anisotropic hyperelastic, user,formulation=invariant, local directions=1, type=compressible, properties=4
+0.001000, 20.066890, 0.000188, 14.859590
+*TRANSVERSE SHEAR
+5.000000e-03,5.000000e-03,0.0
+*Material, name=VUANISO_ISO_3
+*Density
+1e-09,
+*anisotropic hyperelastic, user,formulation=invariant, local directions=1, type=compressible, properties=4
+0.001000, 20.066890, 0.000191, 17.751490
+*TRANSVERSE SHEAR
+5.000000e-03,5.000000e-03,0.0

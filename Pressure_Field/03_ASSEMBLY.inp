@@ -1,0 +1,11 @@
+*Assembly, name=Assembly 
+*Instance, name=Leaflet_Instance, part=Leaflet 
+*End Instance 
+*Instance, name=Rigid_Rect-1, part=Rigid_Rect
+*End Instance
+*Surface, type=ELEMENT, name=Leaflet_Surfaces, MAXRATIO=0.6 
+Leaflet_Instance.Anterior_Leaflet_Elements, SPOS 
+Leaflet_Instance.Posterior_Leaflet_Elements, SPOS 
+Leaflet_Instance.Septal_Leaflet_Elements, SPOS 
+*Rigid Body, ref node=Rigid_Rect-1.Rigid_Rect-RefPt_, elset=Rigid_Rect-1.Rigid_Rect
+*End Assembly 

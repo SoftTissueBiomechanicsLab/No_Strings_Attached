@@ -1,0 +1,11 @@
+*Step, name="Pressure Field", nlgeom=YES 
+*Dynamic, Explicit 
+, 0.5 
+*Bulk Viscosity 
+5.0, 1.2 
+*VARIABLE MASS SCALING, TYPE=UNIFORM, FREQUENCY=100, DT=5.00E-7
+*Dsload, amplitude=Amp-PF 
+Leaflet_Surfaces, PNU
+*Output, field, variable=PRESELECT 
+*Output, history, variable=PRESELECT 
+*End Step
