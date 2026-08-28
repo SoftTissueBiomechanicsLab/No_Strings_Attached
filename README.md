@@ -13,4 +13,4 @@ Synthetic Chordae_#: After generating a generic synthetic chordal architecture w
     
     - 450: Twice the number of chordae based on the average chordal density of all excised donor valve's.
 
-Within each simulation directory, the necessary Abaqus input files (*.inp) and user material/loading subroutines (*.f) are provided. Additionally, Paraview files (*.vtu) of the resulting simulation are provided.
+Within each simulation directory, the necessary Abaqus input files (\*.inp) and user material/loading subroutines (\*.f) are provided. Additionally, Paraview files (\*.vtu) of the resulting simulation are provided.
