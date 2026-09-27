@@ -46,13 +46,9 @@ The [`Shape_Matching/`](Shape_Matching/) case proceeds in three stages:
 2. The LCPF is activated while the valve remains against the template. The pressure field penalizes displacement from the target end-systolic surface at 10 kPa/mm.
 3. Contact with the rigid template is removed. The leaflets equilibrate under transvalvular pressure, chordal-mimicking forces, and the LCPF.
 
-The manuscript reports a mean inter-surface distance of **0.29 +/- 0.35 mm** between the predicted and target leaflet surfaces. The calibrated chordal-mimicking forces were rounded to **1.0 N downward** and **0.4 N lateral** for the reported simulations.
-
 ### Synthetic chordae
 
 The synthetic-chordae cases start from the matched valve geometry. Chordal insertion sites are generated from anatomical zones using rejection sampling. The unloaded length of each chord is then calibrated from its reaction force and chordal stress-stretch relationship before quasi-static valve closure is simulated.
-
-The manuscript compares 202, 225, and 450 insertions. Increasing the insertion count reduced mean inter-surface distance from **0.63 +/- 0.52 mm** to **0.49 +/- 0.44 mm**. The 450-insertion configuration reproduced the target leaflet contact area within **0.59%**. Across configurations, mean maximum-principal-stretch errors in leaflet-belly regions remained below **2.4%**, while areal-strain errors ranged from **0.34% to 10.01%**.
 
 ## Requirements
 
@@ -87,9 +83,7 @@ This repository provides the Abaqus inputs, user subroutines, and VTU result fil
 
 Please cite the accompanying manuscript when using these files:
 
-> Mathur, M., Haese, C. E., Dubey, V. K., Seetharam, S., Meador, W. D., Jazwiec, T., Simonian, N. T., Sacks, M. S., Malinowski, M., Timek, T. A., and Rausch, M. K. “No Strings Attached: Predicting Tricuspid Valve Deformation Without In Vivo Chordal Geometry.”
-
-Add the final journal, year, DOI, and version information here once they are available.
+> Mathur, M., Haese, C.E., Dubey, V., Seetharam, S., Meador, W.D., Jazwiec, T., Simonian, N., Sacks, M., Malinowski, M., Fuhg, J., Moussa, I., Cohen, J.A., Summers, M.R., Timek, T.A., Hiesinger, W., and Rausch, M.K. “No Strings Attached: Predicting Tricuspid Valve Deformation Without In Vivo Chordal Geometry.”
 
 ## License
 
