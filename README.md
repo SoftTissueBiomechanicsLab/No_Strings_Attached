@@ -1,6 +1,6 @@
 # No Strings Attached
 
-Finite-element simulations accompanying **“No Strings Attached: Predicting Tricuspid Valve Deformation Without In Vivo Chordal Geometry.”** The study develops a method for predicting tricuspid-valve deformation without first reconstructing subject-specific chordae tendineae from medical images.
+Finite-element simulations accompanying [**“No Strings Attached: Predicting Tricuspid Valve Deformation Without In Vivo Chordal Geometry.”**](https://doi.org/10.64898/2026.09.25.754571) The study develops a method for predicting tricuspid-valve deformation without first reconstructing subject-specific chordae tendineae from medical images.
 
 ## Overview
 
@@ -83,7 +83,15 @@ This repository provides the Abaqus inputs, user subroutines, and VTU result fil
 
 Please cite the accompanying manuscript when using these files:
 
-> Mathur, M., Haese, C.E., Dubey, V., Seetharam, S., Meador, W.D., Jazwiec, T., Simonian, N., Sacks, M., Malinowski, M., Fuhg, J., Moussa, I., Cohen, J.A., Summers, M.R., Timek, T.A., Hiesinger, W., and Rausch, M.K. “No Strings Attached: Predicting Tricuspid Valve Deformation Without In Vivo Chordal Geometry.”
+```
+@article{mathur2026strings,
+  title   = {No Strings Attached: Predicting Tricuspid Valve Deformation Without In Vivo Chordal Geometry},
+  author  = {Mathur, Mrudang and Haese, Collin E. and Dubey, Vijay K. and Seetharam, Sumedh and Meador, William D. and Jazwiec, Tomasz and Simonian, Natalie T. and Sacks, Michael S. and Malinowski, Marcin and Fuhg, Jan and Moussa, Issam and Cohen, Joshua A. and Summers, Matthew R. and Timek, Tomasz A. and Hiesinger, William and Rausch, Manuel K.},
+  journal = {bioRxiv},
+  year    = {2026},
+  doi     = {10.64898/2026.09.25.754571}
+}
+```
 
 ## License
 
